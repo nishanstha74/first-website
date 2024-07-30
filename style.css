@@ -38,5 +38,7 @@ border-radius: 10px;
          }
 .text
 {
+    word-wrap: normal;
+   font-family: cursive;
     font-size: 20px;  
 }
