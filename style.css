@@ -8,23 +8,38 @@ body{
     color: transparent;
    text-shadow: 0.px 0.2px aqua;
     background-image: url(images\ \(1\).jpeg);
-background-clip:text;
+   background-clip:text;
+ }
+ .navigation-bar{
+    background-color: rgb(16, 10, 26);
+    padding:1vw;
+
  }
  nav{
-    display: flex;
-    gap: 3rem;
-font-size: x-large;        
+  
+    position: sticky;
+    display: inline-flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 25%;
+    font-size: x-large;        
 
  }
  p{
     margin-top: 100px;
+ }
+ .home:hover
+ {
+    background-color: rgb(26, 14, 5);
+    color: rgb(209, 209, 209);
+    border-radius: 10px;
  }
 .about:hover{
 background-color: rgb(26, 14, 5);
 color: rgb(209, 209, 209);
 border-radius: 10px;
 }
-.gallery:hover{
+.portfolio:hover{
     background-color: rgb(26, 14, 5);
     color: rgb(209, 209, 209);
     border-radius: 10px;
@@ -34,11 +49,40 @@ border-radius: 10px;
         background-color: rgb(26, 14, 5);
         color: rgb(209, 209, 209);
         border-radius: 10px;
-        
-         }
+        }
+        .home{    
+   background-color: rgb(181, 197, 37);
+    color: rgb(209, 209, 209);
+    border-radius: 5px;
+ }
+.about{
+background-color: rgb(181, 197, 37);
+color: rgb(209, 209, 209);
+border-radius: 5px;
+}
+.portfolio{
+    background-color: rgb(181, 197, 37);
+    color: rgb(209, 209, 209);
+    border-radius: 5px;
+    
+     }
+     .contact{
+        background-color: rgb(181, 197, 37);
+        color: rgb(209, 209, 209);
+        border-radius: 10px;
+       }
 .text
 {
     word-wrap: normal;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;  
+    font-size: 20px; 
+    text-align: justify; 
 }
+.port{
+    font-size: x-large;
+ font-weight: bold;
+ border: 6px dashed red;
+display: flex;
+justify-content: center;
+margin-bottom: 15vw;  
+   }
